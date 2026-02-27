@@ -51,13 +51,7 @@ const HeroSection = () => {
           transition={{ delay: 0.7 }}
           className="max-w-xl mx-auto text-muted-foreground text-lg mb-10"
         >
-          I am a Human Resources Professional, Talent Manager, and Data Analyst with over a decade of experience
-          optimizing HR management in the maritime, oil and gas, and other sectors. My expertise lies in driving change,
-          leading and developing people, and making sure employees have the best experience within the organization. I
-          am a YALI Fellow, a Global Shaper with the World Economic Forum, and a Chevening Scholar 2020, I have led
-          pivotal projects to promote sustainable development globally and supported young people. I am very passionate
-          about youth development and promoting the Sustainable Development Goals. I hold an MSc in Human Resource
-          Management from the University of Bradford, United Kingdom.{" "}
+          MSc, MCIPM, and ACIPD
         </motion.p>
 
         <motion.div
