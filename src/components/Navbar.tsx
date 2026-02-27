@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-lg bg-background/70 border-b border-border/30">
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
         <a href="#home" className="text-2xl font-ovo text-gradient">
-          ODISHIKA
+          Odishika
         </a>
 
         {/* Desktop */}
