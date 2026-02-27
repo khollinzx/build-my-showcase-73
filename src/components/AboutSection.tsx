@@ -24,12 +24,8 @@ const AboutSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <p className="text-primary font-outfit text-sm tracking-widest uppercase mb-3">
-            About Me
-          </p>
-          <h2 className="text-4xl md:text-5xl font-ovo mb-4">
-            Passionate About Building
-          </h2>
+          <p className="text-primary font-outfit text-sm tracking-widest uppercase mb-3">About Me</p>
+          <h2 className="text-4xl md:text-5xl font-ovo mb-4">Passionate About Building</h2>
           <div className="gold-line w-20 mx-auto" />
         </motion.div>
 
@@ -41,15 +37,16 @@ const AboutSection = () => {
             transition={{ duration: 0.6 }}
           >
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-              I'm a full-stack developer with a passion for creating beautiful,
-              functional, and user-centered digital experiences. With 5+ years
-              in the field, I bring ideas to life using modern technologies
-              and thoughtful design.
+              I am a Human Resources Professional, Talent Manager, and Data Analyst with over a decade of experience
+              optimizing HR management in the maritime, oil and gas, and other sectors. My expertise lies in driving
+              change, leading and developing people, and making sure employees have the best experience within the
+              organization.
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-              My approach combines technical excellence with creative
-              problem-solving, ensuring every project not only works flawlessly
-              but also delights users.
+              I am a YALI Fellow, a Global Shaper with the World Economic Forum, and a Chevening Scholar 2020, I have
+              led pivotal projects to promote sustainable development globally and supported young people. I am very
+              passionate about youth development and promoting the Sustainable Development Goals. I hold an MSc in Human
+              Resource Management from the University of Bradford, United Kingdom.
             </p>
 
             <div className="flex gap-6">
@@ -73,12 +70,8 @@ const AboutSection = () => {
           >
             {stats.map((stat) => (
               <div key={stat.label} className="glass-card p-6 text-center">
-                <div className="text-3xl font-ovo text-primary mb-1">
-                  {stat.value}
-                </div>
-                <p className="text-xs text-muted-foreground font-outfit">
-                  {stat.label}
-                </p>
+                <div className="text-3xl font-ovo text-primary mb-1">{stat.value}</div>
+                <p className="text-xs text-muted-foreground font-outfit">{stat.label}</p>
               </div>
             ))}
           </motion.div>
