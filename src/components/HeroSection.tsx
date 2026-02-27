@@ -4,17 +4,10 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
   return (
-    <section
-      id="home"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
-    >
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0">
-        <img
-          src={heroBg}
-          alt=""
-          className="w-full h-full object-cover opacity-40"
-        />
+        <img src={heroBg} alt="" className="w-full h-full object-cover opacity-40" />
         <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/80 to-background" />
       </div>
 
@@ -27,7 +20,7 @@ const HeroSection = () => {
         >
           <img
             src={profileImg}
-            alt="Eliana"
+            alt="Odishika"
             className="w-32 h-32 rounded-full mx-auto object-cover ring-4 ring-primary/30 shadow-2xl"
           />
         </motion.div>
@@ -38,7 +31,7 @@ const HeroSection = () => {
           transition={{ delay: 0.3 }}
           className="text-lg font-outfit tracking-widest uppercase text-muted-foreground mb-4"
         >
-          Hi, I'm Eliana ✦
+          Hi, I'm Odishika ✦
         </motion.p>
 
         <motion.h1
@@ -47,7 +40,7 @@ const HeroSection = () => {
           transition={{ delay: 0.5 }}
           className="text-5xl md:text-7xl font-ovo leading-tight mb-6"
         >
-          Full-Stack Developer
+          Human Resource Specialist
           <br />
           <span className="text-gradient">& Creative Designer</span>
         </motion.h1>
@@ -58,8 +51,7 @@ const HeroSection = () => {
           transition={{ delay: 0.7 }}
           className="max-w-xl mx-auto text-muted-foreground text-lg mb-10"
         >
-          I craft modern web experiences that blend elegant design with
-          powerful, scalable technology.
+          I craft modern web experiences that blend elegant design with powerful, scalable technology.
         </motion.p>
 
         <motion.div
