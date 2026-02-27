@@ -42,7 +42,7 @@ const HeroSection = () => {
         >
           Human Resource Specialist
           <br />
-          <span className="text-gradient">& Creative Designer</span>
+          <span className="text-gradient">& Talent Manager</span>
         </motion.h1>
 
         <motion.p
