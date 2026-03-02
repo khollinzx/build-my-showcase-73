@@ -36,20 +36,20 @@ const AboutSection = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <p className="text-muted-foreground text-lg leading-relaxed mb-6">
+            <p className="text-muted-foreground text-lg leading-relaxed mb-6 justify text-justify">
               I am a Human Resources Professional, Talent Manager, and Data Analyst with over a decade of experience
               optimizing HR management in the maritime, oil and gas, and other sectors. My expertise lies in driving
               change, leading and developing people, and making sure employees have the best experience within the
               organization.
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-              As a YALI Fellow, a Global Shaper with the World Economic Forum, a Chevening Scholar, and a ForbesBLK Member,
-              I have led pivotal projects to promote sustainable development globally and supported young people. I am
-              passionate about youth development and promoting the Sustainable Development Goals.
+              As a YALI Fellow, a Global Shaper with the World Economic Forum, a Chevening Scholar, and a ForbesBLK
+              Member, I have led pivotal projects to promote sustainable development globally and supported young
+              people. I am passionate about youth development and promoting the Sustainable Development Goals.
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-              I hold an MSc in Human Resource Management from the University of Bradford, United Kingdom. Currently serving
-              as Senior Human Resources Executive at HBA Future Energy.
+              I hold an MSc in Human Resource Management from the University of Bradford, United Kingdom. Currently
+              serving as Senior Human Resources Executive at HBA Future Energy.
             </p>
 
             <div className="flex gap-6">
