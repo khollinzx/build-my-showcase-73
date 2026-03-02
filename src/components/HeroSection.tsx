@@ -21,7 +21,7 @@ const HeroSection = () => {
           <img
             src={profileImg}
             alt="Odishika Abigail Adoh"
-            className="w-32 h-32 rounded-full mx-auto object-cover ring-4 ring-primary/30 shadow-2xl"
+            className="w-44 h-44 md:w-56 md:h-56 rounded-full mx-auto object-cover ring-4 ring-primary/30 shadow-2xl"
           />
         </motion.div>
 
