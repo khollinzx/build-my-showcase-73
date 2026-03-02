@@ -20,7 +20,7 @@ const HeroSection = () => {
         >
           <img
             src={profileImg}
-            alt="Odishika"
+            alt="Odishika Abigail Adoh"
             className="w-32 h-32 rounded-full mx-auto object-cover ring-4 ring-primary/30 shadow-2xl"
           />
         </motion.div>
@@ -40,7 +40,7 @@ const HeroSection = () => {
           transition={{ delay: 0.5 }}
           className="text-5xl md:text-7xl font-ovo leading-tight mb-6"
         >
-          Human Resource Specialist
+          HR Generalist
           <br />
           <span className="text-gradient">& Talent Manager</span>
         </motion.h1>
@@ -49,9 +49,9 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.7 }}
-          className="max-w-xl mx-auto text-muted-foreground text-lg mb-10"
+          className="max-w-2xl mx-auto text-muted-foreground text-lg mb-10"
         >
-          MSc, MCIPM, and ACIPD
+          MSc, MCIPM, ACIPD · Chevening Alumnus · WEF Global Shaper · ForbesBLK Member
         </motion.p>
 
         <motion.div
@@ -61,10 +61,10 @@ const HeroSection = () => {
           className="flex items-center justify-center gap-4 flex-wrap"
         >
           <a
-            href="#projects"
+            href="#about"
             className="px-8 py-3 rounded-full bg-primary text-primary-foreground font-medium hover:opacity-90 transition-opacity"
           >
-            View My Work
+            Learn More
           </a>
           <a
             href="#contact"

@@ -1,29 +1,29 @@
 import { motion } from "framer-motion";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-featured online store with cart, checkout, and payment integration.",
-    tags: ["React", "Node.js", "Stripe"],
+    title: "Chevening Scholarship 2020",
+    description: "Selected as a Chevening Scholar, pursuing MSc in Human Resource Management at the University of Bradford, United Kingdom.",
+    tags: ["Chevening", "MSc HRM", "University of Bradford"],
     color: "from-primary/20 to-primary/5",
   },
   {
-    title: "Task Management App",
-    description: "Collaborative project management tool with real-time updates and Kanban boards.",
-    tags: ["TypeScript", "PostgreSQL", "WebSocket"],
+    title: "World Economic Forum – Global Shapers",
+    description: "Active member of the Global Shapers Community, driving initiatives for sustainable development and youth empowerment worldwide.",
+    tags: ["WEF", "Global Shapers", "Leadership"],
     color: "from-muted to-secondary/50",
   },
   {
-    title: "Portfolio Generator",
-    description: "A drag-and-drop portfolio builder with customizable templates and themes.",
-    tags: ["Next.js", "Tailwind", "Prisma"],
+    title: "YALI Fellowship",
+    description: "Young African Leaders Initiative Fellow, contributing to leadership development and civic engagement across Africa.",
+    tags: ["YALI", "Africa", "Youth Development"],
     color: "from-primary/15 to-muted",
   },
   {
-    title: "Health & Fitness Tracker",
-    description: "Mobile-first fitness app with workout tracking, nutrition logging, and analytics.",
-    tags: ["React Native", "Firebase", "Charts"],
+    title: "ForbesBLK Member",
+    description: "Member of the ForbesBLK community, connecting with professionals driving innovation and impact across industries globally.",
+    tags: ["ForbesBLK", "Networking", "Impact"],
     color: "from-secondary to-primary/10",
   },
 ];
@@ -39,10 +39,10 @@ const ProjectsSection = () => {
           className="text-center mb-16"
         >
           <p className="text-primary font-outfit text-sm tracking-widest uppercase mb-3">
-            Portfolio
+            Achievements
           </p>
           <h2 className="text-4xl md:text-5xl font-ovo mb-4">
-            Featured Projects
+            Notable Milestones
           </h2>
           <div className="gold-line w-20 mx-auto" />
         </motion.div>
@@ -69,7 +69,7 @@ const ProjectsSection = () => {
                   {project.description}
                 </p>
 
-                <div className="flex flex-wrap gap-2 mb-5">
+                <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
@@ -78,21 +78,6 @@ const ProjectsSection = () => {
                       {tag}
                     </span>
                   ))}
-                </div>
-
-                <div className="flex gap-4">
-                  <a
-                    href="#"
-                    className="text-muted-foreground hover:text-primary transition-colors"
-                  >
-                    <ExternalLink size={18} />
-                  </a>
-                  <a
-                    href="#"
-                    className="text-muted-foreground hover:text-primary transition-colors"
-                  >
-                    <Github size={18} />
-                  </a>
                 </div>
               </div>
             </motion.div>

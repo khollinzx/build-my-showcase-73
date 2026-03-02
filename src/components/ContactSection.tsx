@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Linkedin } from "lucide-react";
 
 const ContactSection = () => {
   return (
@@ -32,17 +32,24 @@ const ContactSection = () => {
               </div>
               <div>
                 <h4 className="font-outfit font-medium text-foreground">Email</h4>
-                <p className="text-muted-foreground text-sm">hello@eliana.dev</p>
+                <p className="text-muted-foreground text-sm">odishika.adoh@gmail.com</p>
               </div>
             </div>
 
             <div className="flex items-start gap-4">
               <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center shrink-0 mt-1">
-                <Phone size={18} className="text-primary" />
+                <Linkedin size={18} className="text-primary" />
               </div>
               <div>
-                <h4 className="font-outfit font-medium text-foreground">Phone</h4>
-                <p className="text-muted-foreground text-sm">+1 (555) 123-4567</p>
+                <h4 className="font-outfit font-medium text-foreground">LinkedIn</h4>
+                <a
+                  href="https://www.linkedin.com/in/odishika-abigail-adoh-acipd-acipm-35274a56"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground text-sm hover:text-primary transition-colors"
+                >
+                  Connect with me
+                </a>
               </div>
             </div>
 
@@ -52,7 +59,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <h4 className="font-outfit font-medium text-foreground">Location</h4>
-                <p className="text-muted-foreground text-sm">San Francisco, CA</p>
+                <p className="text-muted-foreground text-sm">Nigeria</p>
               </div>
             </div>
           </motion.div>
