@@ -1,16 +1,16 @@
 import { motion } from "framer-motion";
-import { Code, Palette, Rocket } from "lucide-react";
+import { Users, Award, Globe } from "lucide-react";
 
 const stats = [
-  { value: "5+", label: "Years Experience" },
-  { value: "50+", label: "Projects Completed" },
-  { value: "30+", label: "Happy Clients" },
+  { value: "10+", label: "Years Experience" },
+  { value: "5K+", label: "LinkedIn Network" },
+  { value: "6K+", label: "Followers" },
 ];
 
 const highlights = [
-  { icon: Code, label: "Clean Code" },
-  { icon: Palette, label: "Creative Design" },
-  { icon: Rocket, label: "Fast Delivery" },
+  { icon: Users, label: "People Operations" },
+  { icon: Award, label: "Chevening Scholar" },
+  { icon: Globe, label: "Global Shaper" },
 ];
 
 const AboutSection = () => {
@@ -25,7 +25,7 @@ const AboutSection = () => {
           className="text-center mb-16"
         >
           <p className="text-primary font-outfit text-sm tracking-widest uppercase mb-3">About Me</p>
-          <h2 className="text-4xl md:text-5xl font-ovo mb-4">Passionate About Building</h2>
+          <h2 className="text-4xl md:text-5xl font-ovo mb-4">Passionate About People</h2>
           <div className="gold-line w-20 mx-auto" />
         </motion.div>
 
@@ -42,11 +42,14 @@ const AboutSection = () => {
               change, leading and developing people, and making sure employees have the best experience within the
               organization.
             </p>
+            <p className="text-muted-foreground text-lg leading-relaxed mb-6">
+              As a YALI Fellow, a Global Shaper with the World Economic Forum, a Chevening Scholar, and a ForbesBLK Member,
+              I have led pivotal projects to promote sustainable development globally and supported young people. I am
+              passionate about youth development and promoting the Sustainable Development Goals.
+            </p>
             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-              I am a YALI Fellow, a Global Shaper with the World Economic Forum, and a Chevening Scholar 2020, I have
-              led pivotal projects to promote sustainable development globally and supported young people. I am very
-              passionate about youth development and promoting the Sustainable Development Goals. I hold an MSc in Human
-              Resource Management from the University of Bradford, United Kingdom.
+              I hold an MSc in Human Resource Management from the University of Bradford, United Kingdom. Currently serving
+              as Senior Human Resources Executive at HBA Future Energy.
             </p>
 
             <div className="flex gap-6">

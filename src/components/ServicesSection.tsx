@@ -1,36 +1,36 @@
 import { motion } from "framer-motion";
-import { Globe, Smartphone, Server, PenTool, Search, BarChart3 } from "lucide-react";
+import { Users, BarChart3, Heart, Target, BookOpen, Globe } from "lucide-react";
 
 const services = [
   {
-    icon: Globe,
-    title: "Web Development",
-    description: "Building responsive, performant websites with modern frameworks and best practices.",
+    icon: Users,
+    title: "Talent Management",
+    description: "Strategic talent acquisition, development, and retention to build high-performing teams.",
   },
   {
-    icon: Smartphone,
-    title: "Mobile Apps",
-    description: "Cross-platform mobile applications that feel native and deliver great user experiences.",
-  },
-  {
-    icon: Server,
-    title: "Backend & APIs",
-    description: "Scalable server architecture and RESTful APIs that power your applications reliably.",
-  },
-  {
-    icon: PenTool,
-    title: "UI/UX Design",
-    description: "Intuitive interfaces and engaging user experiences crafted with purpose and precision.",
-  },
-  {
-    icon: Search,
-    title: "SEO Optimization",
-    description: "Technical SEO strategies that improve visibility and drive organic traffic.",
+    icon: Heart,
+    title: "People Operations & Culture",
+    description: "Creating exceptional employee experiences and fostering inclusive workplace cultures.",
   },
   {
     icon: BarChart3,
-    title: "Analytics",
-    description: "Data-driven insights and dashboards to measure and optimize performance.",
+    title: "HR Analytics",
+    description: "Data-driven insights to optimize workforce planning, performance, and organizational effectiveness.",
+  },
+  {
+    icon: Target,
+    title: "Change Management",
+    description: "Leading organizational transformation initiatives and driving strategic change across teams.",
+  },
+  {
+    icon: BookOpen,
+    title: "Learning & Development",
+    description: "Designing training programs and career development pathways to grow organizational capability.",
+  },
+  {
+    icon: Globe,
+    title: "SDG Advocacy",
+    description: "Championing sustainable development goals and youth empowerment through global initiatives.",
   },
 ];
 
@@ -47,7 +47,7 @@ const ServicesSection = () => {
           <p className="text-primary font-outfit text-sm tracking-widest uppercase mb-3">
             What I Do
           </p>
-          <h2 className="text-4xl md:text-5xl font-ovo mb-4">My Services</h2>
+          <h2 className="text-4xl md:text-5xl font-ovo mb-4">My Expertise</h2>
           <div className="gold-line w-20 mx-auto" />
         </motion.div>
 
