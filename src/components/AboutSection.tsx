@@ -44,7 +44,7 @@ const AboutSection = () => {
               change, leading and developing people, and making sure employees have the best experience within the
               organization.
             </p>
-            <p className="text-muted-foreground leading-relaxed mb-6 text-justify">
+            <p className="text-muted-foreground leading-relaxed mb-6 text-justify break-words">
               As a YALI Fellow, a Global Shaper with the World Economic Forum, a Chevening Scholar, and a ForbesBLK
               Member, I have led pivotal projects to promote sustainable development globally and supported young
               people. I am passionate about youth development and promoting the Sustainable Development Goals.
