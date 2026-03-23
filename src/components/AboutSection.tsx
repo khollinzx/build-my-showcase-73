@@ -31,12 +31,13 @@ const AboutSection = () => {
           <div className="elegant-divider" />
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-16 items-start">
+        <div className="grid md:grid-cols-2 gap-16 items-start overflow-hidden">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
+            className="min-w-0"
           >
             <p className="text-muted-foreground leading-relaxed mb-6 md:text-justify">
               I am a Human Resources Professional, Talent Manager, and Data Analyst with over a decade of experience
