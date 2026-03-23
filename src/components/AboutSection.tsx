@@ -49,7 +49,7 @@ const AboutSection = () => {
               Member, I have led pivotal projects to promote sustainable development globally and supported young
               people. I am passionate about youth development and promoting the Sustainable Development Goals.
             </p>
-            <p className="text-muted-foreground leading-relaxed mb-10 text-justify">
+            <p className="text-muted-foreground leading-relaxed mb-10 text-justify break-words">
               I hold an MSc in Human Resource Management from the University of Bradford, United Kingdom.
             </p>
 
