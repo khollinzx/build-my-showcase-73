@@ -15,7 +15,7 @@ const highlights = [
 
 const AboutSection = () => {
   return (
-    <section id="about" className="py-28 px-6">
+    <section id="about" className="py-28 px-6 overflow-hidden">
       <div className="container mx-auto max-w-5xl">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -31,25 +31,26 @@ const AboutSection = () => {
           <div className="elegant-divider" />
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-16 items-start">
+        <div className="grid md:grid-cols-2 gap-16 items-start overflow-hidden">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
+            className="min-w-0"
           >
-            <p className="text-muted-foreground leading-relaxed mb-6 text-justify">
+            <p className="text-muted-foreground leading-relaxed mb-6 md:text-justify">
               I am a Human Resources Professional, Talent Manager, and Data Analyst with over a decade of experience
               optimizing HR management in the maritime, oil and gas, and other sectors. My expertise lies in driving
               change, leading and developing people, and making sure employees have the best experience within the
               organization.
             </p>
-            <p className="text-muted-foreground leading-relaxed mb-6 text-justify">
+            <p className="text-muted-foreground leading-relaxed mb-6 md:text-justify">
               As a YALI Fellow, a Global Shaper with the World Economic Forum, a Chevening Scholar, and a ForbesBLK
               Member, I have led pivotal projects to promote sustainable development globally and supported young
               people. I am passionate about youth development and promoting the Sustainable Development Goals.
             </p>
-            <p className="text-muted-foreground leading-relaxed mb-10 text-justify">
+            <p className="text-muted-foreground leading-relaxed mb-10 md:text-justify">
               I hold an MSc in Human Resource Management from the University of Bradford, United Kingdom.
             </p>
 
