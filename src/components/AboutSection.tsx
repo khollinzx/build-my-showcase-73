@@ -15,7 +15,7 @@ const highlights = [
 
 const AboutSection = () => {
   return (
-    <section id="about" className="py-28 px-6">
+    <section id="about" className="py-28 px-6 overflow-hidden">
       <div className="container mx-auto max-w-5xl">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
