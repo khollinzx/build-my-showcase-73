@@ -7,43 +7,43 @@
 @layer base {
   :root {
     --background: 220 20% 7%;
-    --foreground: 40 20% 90%;
+    --foreground: 40 15% 88%;
 
-    --card: 220 18% 10%;
-    --card-foreground: 40 20% 90%;
+    --card: 220 18% 9%;
+    --card-foreground: 40 15% 88%;
 
-    --popover: 220 18% 10%;
-    --popover-foreground: 40 20% 90%;
+    --popover: 220 18% 9%;
+    --popover-foreground: 40 15% 88%;
 
-    --primary: 38 70% 55%;
+    --primary: 38 55% 52%;
     --primary-foreground: 220 20% 7%;
 
-    --secondary: 220 15% 15%;
-    --secondary-foreground: 40 20% 90%;
+    --secondary: 220 14% 12%;
+    --secondary-foreground: 40 15% 88%;
 
-    --muted: 220 15% 15%;
-    --muted-foreground: 220 10% 55%;
+    --muted: 220 14% 14%;
+    --muted-foreground: 220 8% 50%;
 
-    --accent: 38 70% 55%;
+    --accent: 38 55% 52%;
     --accent-foreground: 220 20% 7%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 220 15% 18%;
-    --input: 220 15% 18%;
-    --ring: 38 70% 55%;
+    --border: 220 12% 16%;
+    --input: 220 12% 16%;
+    --ring: 38 55% 52%;
 
-    --radius: 0.75rem;
+    --radius: 0.5rem;
 
-    --sidebar-background: 220 18% 10%;
-    --sidebar-foreground: 40 20% 90%;
-    --sidebar-primary: 38 70% 55%;
+    --sidebar-background: 220 18% 9%;
+    --sidebar-foreground: 40 15% 88%;
+    --sidebar-primary: 38 55% 52%;
     --sidebar-primary-foreground: 220 20% 7%;
-    --sidebar-accent: 220 15% 15%;
-    --sidebar-accent-foreground: 40 20% 90%;
-    --sidebar-border: 220 15% 18%;
-    --sidebar-ring: 38 70% 55%;
+    --sidebar-accent: 220 14% 12%;
+    --sidebar-accent-foreground: 40 15% 88%;
+    --sidebar-border: 220 12% 16%;
+    --sidebar-ring: 38 55% 52%;
   }
 }
 
@@ -64,15 +64,18 @@
 @layer utilities {
   .text-gradient {
     @apply bg-clip-text text-transparent;
-    background-image: linear-gradient(135deg, hsl(38, 70%, 55%), hsl(38, 90%, 70%));
+    background-image: linear-gradient(135deg, hsl(38, 55%, 52%), hsl(38, 65%, 65%));
   }
 
-  .gold-line {
-    background: linear-gradient(90deg, transparent, hsl(38, 70%, 55%), transparent);
-    height: 1px;
+  .elegant-divider {
+    @apply w-12 h-px bg-primary/40 mx-auto;
   }
 
-  .glass-card {
-    @apply bg-card/60 backdrop-blur-md border border-border/50 rounded-xl;
+  .section-card {
+    @apply bg-card border border-border/60 rounded-lg transition-all duration-300;
+  }
+
+  .section-card:hover {
+    @apply border-primary/20 -translate-y-0.5 shadow-lg shadow-primary/5;
   }
 }
