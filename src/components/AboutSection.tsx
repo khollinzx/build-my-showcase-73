@@ -38,7 +38,7 @@ const AboutSection = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <p className="text-muted-foreground leading-relaxed mb-6 text-justify">
+            <p className="text-muted-foreground leading-relaxed mb-6 text-justify break-words">
               I am a Human Resources Professional, Talent Manager, and Data Analyst with over a decade of experience
               optimizing HR management in the maritime, oil and gas, and other sectors. My expertise lies in driving
               change, leading and developing people, and making sure employees have the best experience within the
