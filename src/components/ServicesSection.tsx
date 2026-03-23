@@ -36,19 +36,20 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section id="services" className="py-24 px-6 bg-secondary/30">
+    <section id="services" className="py-28 px-6 bg-secondary/20">
       <div className="container mx-auto max-w-6xl">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
+          transition={{ duration: 0.8 }}
+          className="text-center mb-20"
         >
-          <p className="text-primary font-outfit text-sm tracking-widest uppercase mb-3">
+          <p className="text-xs font-outfit tracking-[0.3em] uppercase text-primary mb-4">
             What I Do
           </p>
-          <h2 className="text-4xl md:text-5xl font-ovo mb-4">My Expertise</h2>
-          <div className="gold-line w-20 mx-auto" />
+          <h2 className="text-4xl md:text-5xl font-ovo mb-6">My Expertise</h2>
+          <div className="elegant-divider" />
         </motion.div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -58,13 +59,11 @@ const ServicesSection = () => {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.1 }}
-              className="glass-card p-8 group hover:border-primary/30 transition-colors duration-300"
+              transition={{ delay: i * 0.08, duration: 0.6 }}
+              className="section-card p-8 group"
             >
-              <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-5 group-hover:bg-primary/20 transition-colors">
-                <service.icon size={22} className="text-primary" />
-              </div>
-              <h3 className="text-xl font-ovo mb-3">{service.title}</h3>
+              <service.icon size={20} className="text-primary mb-6" strokeWidth={1.5} />
+              <h3 className="text-lg font-ovo mb-3">{service.title}</h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 {service.description}
               </p>
